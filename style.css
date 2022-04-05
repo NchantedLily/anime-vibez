@@ -13,8 +13,17 @@ h1{
 }
 body{
     border: 5px solid red;
+    background-color:rgb(54, 160, 252) ;
 }
 title{
     font-size: 45px;
-    
+
+}
+header{
+    background-color: rgb(54, 160, 252);
+}
+.col-welcome{
+    border-color: yellow;
+    border-radius: 10px;
+    border-style: solid;
 }
