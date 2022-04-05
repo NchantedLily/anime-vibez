@@ -1,0 +1,20 @@
+h1{
+    text-shadow: aliceblue;
+    background-color: rgb(98, 15, 222);
+    margin:0,0;
+    border-left: 10px;
+    border-color: yellow;
+    border-style: solid;
+} 
+#nav-bar{
+    color: black;
+    text-decoration: dotted;
+    margin:0;
+}
+body{
+    border: 5px solid red;
+}
+title{
+    font-size: 45px;
+    
+}
