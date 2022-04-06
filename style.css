@@ -27,3 +27,32 @@ header{
     border-radius: 10px;
     border-style: solid;
 }
+
+p{
+    column-count: 3;
+    column-rule-width: 30px;
+ justify-content: center;
+     align-items: center;
+     color: rgb(170, 13, 13);
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+.container-fluid{
+  background: orange;
+  display:block
+  
+}
+
+.row{
+     font-weight: bold;
+     font-size: 35px;
+     
+}
+    
+
+.button{
+}
+
+    
