@@ -7,8 +7,9 @@ h1{
     border-style: solid;
     font-size: 100px;
     height: 125px;
-    align-self: flex-end;
-    justify-self: flex-end;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
 } 
 #nav-bar{
     color: black;
@@ -161,3 +162,10 @@ h3{
     margin: auto;
 }
 
+iframe{
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 50%;
+    
+}
