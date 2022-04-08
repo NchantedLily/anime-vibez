@@ -1,47 +1,78 @@
 h1{
     text-shadow: aliceblue;
     background-color: rgb(98, 15, 222);
-    margin:0,0;
+    margin:0 0 0 0;
     border-left: 10px;
     border-color: yellow;
     border-style: solid;
+    font-size: 100px;
+    height: 125px;
+    align-self: flex-end;
+    justify-self: flex-end;
 } 
 #nav-bar{
     color: black;
     text-decoration: dotted;
     margin:0;
+    font-size: 25px;
+    text-shadow: 3px;
+
 }
+    
+
 body{
     border: 5px solid red;
     background-color:rgb(54, 160, 252) ;
+
 }
+
 title{
     font-size: 45px;
 
 }
-header{
+.header{
     background-color: rgb(54, 160, 252);
-}
+    font-size: 50px;
+    height:auto;
+    padding: auto;
+    margin: auto;
+
+
+    
+    
+}   
 .col-welcome{
-    border-color: yellow;
-    border-radius: 10px;
-    border-style: solid;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content:center;
+    align-content: stretch;
+    color: white;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    border: radius 3px;
+    border-color: teal;
+    
+    
+    
+    
+
+    
 }
 
-p{
-    column-count: 3;
-    column-rule-width: 30px;
- justify-content: center;
-     align-items: center;
-     color: rgb(170, 13, 13);
-    font-weight: 800;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: oblique;
-}
+
+    
+
 
 .container-fluid{
   background: orange;
-  display:block
+  display:block;
+  justify-content: center;
+  align-content: center;
+  font-style: italic;
+
+
   
 }
 
@@ -51,8 +82,82 @@ p{
      
 }
     
+@media (max-width:375px){
+    .container-fluid{
+    font-size: 24px;
+    align-content: center;
+    justify-content: center;
+    }
+    p{
+       font-size: 14px; 
+       font-style: normal;
+    }
 
-.button{
 }
 
+h2{
+    font: size 24px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: expanded;
+
+    img{
+     width: 200px;
+    }
+
+    .container{
+
+        align-content: space-between;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        display:flex;
+
+ 
+    }
+
+.card {
+    size: 200px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: auto;
+    size: 250px;
+    height: 300px;
     
+    
+
+}
+
+h3{
+    color: teal;
+}
+
+#anime-merch{
+    font-size: 30px;
+    font-weight: bold;
+    align-content: stretch;
+    justify-content: flex-end;
+    font-stretch: extra-expanded;
+    margin: auto;
+}
+#clothes{
+    font-size: 30px;
+    font-weight: bold;
+    align-content: stretch;
+    justify-content: flex-end;
+    font-stretch: extra-expanded;
+    margin: auto;
+}
+
+
+#accessories{
+    font-size: 30px;
+    font-weight: bold;
+    align-content: stretch;
+    justify-content: flex-end;
+    font-stretch: extra-expanded;
+    margin: auto;
+}
+
