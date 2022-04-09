@@ -93,7 +93,29 @@ title{
        font-size: 14px; 
        font-style: normal;
     }
-
+    .card{
+        width:250px;
+    }
+    h1{
+        font-size: 50px;
+        height: 100px;
+        font-weight: bold;
+    }
+      .container-fluid{
+        font-size: 8x;
+        align-content: center;
+        justify-content: center;
+        
+      }
+      .container{
+          width: auto;
+      }
+      iframe{
+          width: auto;
+      }
+      .one{
+          font-size: 16px;
+      }
 }
 
 h2{
